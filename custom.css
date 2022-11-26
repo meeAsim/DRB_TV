@@ -1,0 +1,529 @@
+.mee {
+    color: tomato;
+    font-weight: 800;
+}
+
+.banner-effect:hover img {
+    transform: scale(1.1);
+}
+
+.banner-effect img {
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+
+.banner-section img {
+    align-content: center;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.ne {
+    size: 38px;
+    font-weight: bold;
+    color: tomato;
+}
+
+.ds {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.navbar-brand {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.latest_newsarea {
+    margin-top: 1%;
+}
+
+.tickercontainer {
+    background-color: #009688;
+}
+
+.nav-linki {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 14px;
+    text-shadow: 0 1px 1px #000;
+}
+
+.nav-linkii {
+    display: inline-block;
+    height: 10px;
+    line-height: 5px;
+    padding: 0 5px;
+    padding-top: 2%;
+    text-shadow: 0 1px 1px #000;
+    font-weight: 600;
+    ;
+}
+
+.trend {
+    background: white;
+}
+
+.photo_grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+}
+
+.photo_grid {
+    padding-left: 3%;
+}
+
+.sideAdd {
+    padding-right: 2%;
+}
+
+.featured_img {
+    padding-left: 2%;
+}
+
+.media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media {
+    display: inline-flex;
+}
+
+.catg_title {
+    display: flex;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+/* Style the tab */
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 2s;
+}
+
+/* Style the close button */
+
+/* Fade in tabs */
+
+.tabcontent {
+    @-webkit-keyframes fadeEffect {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.topright:hover {
+    color: red;
+}
+
+/* Style the buttons inside the tab */
+
+.tablinks {
+    border-bottom: 1px solid #333;
+    display: block;
+    padding-left: 10%;
+    padding-right: 5%;
+    border-width: 0;
+    border-color: #ddd #ddd transparent;
+    color: #fff;
+    background-color: #009688;
+}
+
+/* Change background color of buttons on hover */
+
+.tablinks:hover {
+    background-color: #d35400;
+}
+
+.tablinks.active {
+    background-color: #d35400;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.nav-linki:hover {
+    color: #fff;
+}
+
+/* comments  */
+
+.date {
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.comment-text {
+    font-size: 12px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
+}
+
+.fa-facebook {
+    color: #3b5999
+}
+
+.fa-twitter {
+    color: #55acee
+}
+
+.fa-linkedin {
+    color: #0077B5
+}
+
+.fa-instagram {
+    color: #e4405f
+}
+
+.fa-dribbble {
+    color: #ea4c89
+}
+
+.fa-pinterest {
+    color: #bd081c
+}
+
+.fa {
+    cursor: pointer
+}
+
+.comments {
+    visibility: visible;
+    animation-name: fadeInDown;
+    position: relative;
+    padding: 3rem 2rem;
+    border: 1px dashed #dadada;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.small-title {
+    background: #edeff2 none repeat scroll 0 0;
+    font-size: 16px;
+    left: 5%;
+    line-height: 1;
+    margin: 0;
+    padding: 0.6rem 1.5rem;
+    position: absolute;
+    text-align: center;
+    top: -18px;
+}
+
+.custombox {
+    position: relative;
+    padding: 1rem 2rem;
+    border: 1px dashed #dadada;
+}
+
+.custombox1 {
+    position: relative;
+    border: 1px dashed #dadada;
+}
+
+.comments-list img {
+    max-width: 80px;
+    margin-right: 30px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+.user_name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.comments-list .media {
+    padding: 1rem;
+    margin-bottom: 15px;
+}
+
+.last-child {
+    margin-bottom: 0 !important;
+}
+
+.media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.comments-list p {
+    margin-bottom: 1rem;
+}
+
+.media-body .btn-primary {
+    padding: 5px 15px !important;
+    font-size: 11px !important;
+}
+
+.tag-cloud-single a, .comments-list .media-right, .comments-list small {
+    color: #999 !important;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.form-wrapper .form-control {
+    background: #fff none repeat scroll 0 0;
+    border: 1px dashed #dadada;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.4rem;
+    min-height: 50px;
+    text-transform: none;
+}
+
+.modal-content {
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+
+.post_commentbox2 {
+    display: inline;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 5px 0px;
+}
+
+.fa {
+    cursor: pointer;
+    user-select: none;
+    padding: 5%;
+}
+
+.fa:hover {
+    color: #ff99cc;
+    transform: scale(1.5);
+}
+
+#id .header_name {
+    color: #fff;
+}
+
+.header_date {
+    color: #fff;
+}
+
+/*  covid section    */
+
+.covid19container {
+    display: flex;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    max-height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.covid__content {
+    flex: 1;
+    background: #fff;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.covid__hero_container {
+    align-items: center;
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #eaeaea;
+}
+
+.covid__location {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f8f9fa;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    border-top-right-radius: 7px;
+    border: 1px solid #eaeaea;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.covid__img {
+    height: 100%;
+    display: block;
+    padding: 2%;
+    margin: auto;
+    width: 100%;
+}
+
+.covid__content .covid__stats {
+    display: flex;
+    margin: auto;
+}
+
+.covid__content .covid__stat {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    text-align: left;
+    border-right: 1px solid #dcdcdc;
+    padding-right: 10px;
+}
+
+.covid__content .covid__stat:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.covid__content .covid__stat span {
+    display: block;
+    font-weight: 300;
+}
+
+.covid__hero {
+    height: 100%;
+}
+
+.covid__status {
+    background: linear-gradient(to bottom, #3e3e3e, #212121);
+    flex: 0 1 50px;
+    writing-mode: vertical-rl;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
